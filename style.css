@@ -17,11 +17,11 @@
 
 }
 
-.logo-container {
+.logo-container { 
   display: flex;
   flex-direction: column;
 }
-
+/* This creates awesome font */
 span:first-of-type {
   font-family: var(--logo-text);
 }
@@ -32,7 +32,7 @@ span:nth-of-type(2) {
 }
 
 
-.full-logo-cont {
+.full-logo-cont {   
   display: flex;
   flex-direction: row;
   width: 60%;
