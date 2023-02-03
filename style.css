@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Oswald:wght@500&display=swap'); /* Mr Dafoe, Oswald */
+
+:root {
+  --logo-text: 'Mr Dafoe';
+  --head-text: 'Oswald';
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+ li {
+  
+  float: right;
+
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+span:first-of-type {
+  font-family: var(--logo-text);
+}
+
+span:nth-of-type(2) {
+  font-size: 4pt;
+  font-family:monospace
+}
+
+
+.full-logo-cont {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-container {
+  display: inline-flex;
+  float: left;
+}
+
+.everything-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
