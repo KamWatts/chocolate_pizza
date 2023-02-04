@@ -14,14 +14,32 @@
   box-sizing: border-box;
 }
 
+header {
+  margin: auto;
+  width: 901px;
+}
 
+.first-div {
+  display: flex;
+}
 
 main {
   margin: auto;
-  max-width: 901px;
+  width: 901px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+}
+
+footer {
+  width: 900px;
 }
 
 .blogpost-name-date {
@@ -29,6 +47,20 @@ main {
   flex-direction: column;
 }
 
+.chocolate-container {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.blogpost-name-date {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  width: 900px;
+  align-items: flex-end;
+}
 
  li {
   
@@ -70,30 +102,48 @@ li {
 .everything-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .chocolate-container {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 p {
   font-size: smaller;
 }
-
+ 
 .recipe {
   display: flex;
-  flex-direction: column;
-  background-image: url(./images/list-bg.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  flex-direction: row;
+}
 
+.checkbox-group1 {
+  padding: 50px;
+  columns: 2;
+  column-gap: 4rem;
+  position: absolute;
+}
+
+label {
+  display: block;
+}
+
+.share-recipe-button {
+  color: white;
+  background-color: var(--button-color);
 }
 
 footer {
   border: 2px solid black;
+  width: 901px;
+  margin: auto;
+  text-align: center;
 }
 
 .footer-image {
-
+  display: block;
+  margin: auto;
 }
