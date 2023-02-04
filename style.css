@@ -1,15 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Oswald:wght@500&display=swap'); /* Mr Dafoe, Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Mr+Dafoe&family=Oswald:wght@500&family=Playfair+Display&display=swap');/* Mr Dafoe, Oswald, Coming Soon, Playfair Display*/
 
 :root {
-  --logo-text: 'Mr Dafoe';
-  --head-text: 'Oswald';
-
+--logo-text: 'Mr Dafoe';
+--head-text: 'Oswald';
+--logo-color: rgb(111, 107, 107);
+--button-color: rgb(163, 91, 39);
+--pencil-text: 'Coming Soon'
+--vanessa-text: 'Playfair Display'
 }
 
 
 * {
   box-sizing: border-box;
 }
+
+
+
+main {
+  margin: auto;
+  max-width: 901px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blogpost-name-date {
+  display: flex;
+  flex-direction: column;
+}
+
 
  li {
   
@@ -21,6 +40,7 @@
   display: flex;
   flex-direction: column;
 }
+
 /* This creates awesome font */
 span:first-of-type {
   font-family: var(--logo-text);
@@ -52,4 +72,28 @@ li {
   flex-direction: row;
 }
 
+.chocolate-container {
+  display: flex;
+  flex-direction: row;
+}
 
+p {
+  font-size: smaller;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/list-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+footer {
+  border: 2px solid black;
+}
+
+.footer-image {
+
+}
